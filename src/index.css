@@ -1,0 +1,137 @@
+@import 'http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css';
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 750px;
+}
+li{
+    list-style: none;
+}
+li a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+.people-list ul {
+    padding: 20px;
+}
+.people-list ul li {
+    padding-bottom: 20px;
+}
+.people-list img {
+    float: left;
+    width: 100px;
+}
+.people-list .about {
+    float: left;
+    margin-top: 8px;
+}
+.people-list .about {
+    padding-left: 8px;
+}
+
+
+.chat {
+    width: 100%;
+    float: left;
+    background: #F2F5F8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #434651;
+}
+.chat .chat-header {
+    padding: 20px;
+    border-bottom: 2px solid white;
+}
+.chat .chat-header img {
+    float: left;
+    width: 100px;
+}
+.chat .chat-header .chat-about {
+    float: left;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.chat .chat-header .chat-with {
+    font-weight: bold;
+    font-size: 16px;
+}
+.chat .chat-header .chat-num-messages {
+    color: #92959E;
+}
+.chat .chat-history {
+    padding: 30px 30px 20px;
+}
+.chat-history img{
+    width: 150px;
+}
+.online, .offline, .me {
+    margin-right: 3px;
+    font-size: 14px;
+}
+
+.online {
+    color: #86BB71;
+}
+
+.offline {
+    color: #E38968;
+}
+
+.me {
+    color: #94C2ED;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.center{
+    text-align: center;
+    padding: 10px;
+}
+.call{
+    font-size: 17px;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color:white;
+    padding: .5em 1em;
+}
+.button-call{
+    background: rgb(28, 184, 65);
+}
+.end-call{
+    background: rgb(202, 60, 60);
+}
+.logout{
+    background:#444753;
+    float: right;
+}
+.actions{
+    align-content: space-around;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    flex: 2;
+}
